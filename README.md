@@ -32,7 +32,7 @@ With adaptive focus sessions, distraction analytics, and time-based alerts — F
 1. **Clone or download** this repository.
 
    ```bash
-   git clone https://github.com/The-Infernix/FocusFlow-.git
+   git clone https://github.com/The-Infernix/FocusFlow.git
    cd focusflow-ai
    ```
 2. Open **Google Chrome** and go to:
