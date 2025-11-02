@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FocusFlow AI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>FocusFlow AI</h2>
+    <div id="status">Analyzing your focus...</div>
+    <div id="timerDisplay"></div>
+    <button id="startFocus">Start Focus</button>
+    <button id="stopFocus">Stop Focus</button>
+    <div>
+      <label>
+        <input type="checkbox" id="toggleAI" checked />
+        Enable AI Detection
+      </label>
+    </div>
+    <div id="aiStatus"></div>
+    <button id="openAnalytics">Open Analytics</button>
+
+    <canvas id="chart" width="200" height="200"></canvas>
+
+    <!-- All JS external -->
+    <script src="libs/chart.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

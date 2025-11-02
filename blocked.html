@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stay Focused!</title>
+  <style>
+    body {
+      background: #000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "Poppins", sans-serif;
+    }
+    h1 {
+      color: #f44336;
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.2em;
+      opacity: 0.8;
+    }
+    button {
+      background: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Focus Mode Active!</h1>
+  <p>This website is blocked during your focus session.</p>
+  <p id="timer"></p>
+  <button id="unblockBtn">Temporarily Unblock (5 mins)</button>
+
+  <script src="blocked.js"></script>
+</body>
+</html>

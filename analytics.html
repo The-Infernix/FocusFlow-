@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FocusFlow Analytics</title>
+  <script src="libs/chart.js"></script>
+  <script src="analytics.js" defer></script>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+      font-weight: 600;
+      font-size: 28px;
+      letter-spacing: 0.5px;
+    }
+
+    #chart {
+      width: 400px;
+      height: 400px;
+      max-width: 80vw;
+      max-height: 80vw;
+    }
+
+    p {
+      font-size: 18px;
+      color: #444;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 25px;
+      }
+      #chart {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>📊 FocusFlow Analytics</h2>
+    <canvas id="chart"></canvas>
+    <!-- summary paragraph is dynamically added by analytics.js -->
+  </div>
+</body>
+</html>
